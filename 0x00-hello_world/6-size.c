@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - entery point
- * Description: prints the size of various types on the computer it is compiled and run on.
+ * main - entry point
+ * Description: prints the size.
  * Return:(0)
  */
 
