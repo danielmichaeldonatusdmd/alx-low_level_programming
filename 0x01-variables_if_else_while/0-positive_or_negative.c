@@ -4,11 +4,11 @@
 
 /**
  * main - generate a random number everytime
+ *
  * execute it and print
  *
  * Return: 0 (successful)
  */
-
 
 int main(void)
 {
@@ -29,4 +29,4 @@ int main(void)
 		printf("%d is negetive\n", n);
 	}
 	return (0);
-}	
+}
