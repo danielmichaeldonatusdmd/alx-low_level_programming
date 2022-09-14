@@ -2,6 +2,7 @@
 
 /**
  * main - prints all single digit numbers of base 10 starting from 0
+ *
  * Return: 0 Always (successfully)
  */
 
@@ -14,6 +15,6 @@ int main(void)
 		printf("%d", number);
 		number++;
 	}
-	putchar('\');
+	putchar('\n');
 	return (0);
 }
