@@ -25,11 +25,11 @@ int main(void)
 	}
 	else if (M == 0)
 	{
-		printf(" and is less than 6 and not 0\n", M);
+		printf(" and is 0\n", M);
 	}
 	else
 	{
-		printf(" and is 0\n", M);
+		printf(" and is less than 6 and not 0\n", M);
 	}
 	return (0);
 }
