@@ -11,8 +11,8 @@ int add(int ME, int YOU)
 {
 	int MEYOU;
 
-	{
+
 		MEYOU = (ME + YOU);
-	}
+
 	return (ME/YOU);
 }
