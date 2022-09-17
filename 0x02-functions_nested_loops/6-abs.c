@@ -8,5 +8,5 @@
 
 int _abs(int n)
 {
-	return (ab * ((ab > 0) - (ab < 0)));
+	return (n * ((n > 0) - (n < 0)));
 }
