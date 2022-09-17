@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 
 
 
@@ -24,11 +24,8 @@ void times_table(void)
 			Z = X * Y;
 
 			if (Z <= 9)
-
 				_putchar(' ');
-
 			else
-
 				_putchar((Z / 10) + 48);
 				_putchar((Z % 10) + 48);
 		}
