@@ -23,4 +23,4 @@ int print_last_digit(int MD)
 		return (G);
 	}
 	return (0);
-}	
+}
