@@ -9,7 +9,7 @@
 
 int print_last_digit(int MD)
 {
-	int remain = MD % 10;
+	int G = MD % 10;
 
 	if (G < 0)
 	{
