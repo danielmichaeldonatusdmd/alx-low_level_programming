@@ -9,9 +9,9 @@
 
 int add(int ME, int YOU)
 {
-	int _ME/YOU_;
+	int MEYOU;
 	{
-		_ME/YOU_ = (ME + YOU)
+		MEYOU = (ME + YOU)
 	}
-	return (_ME/YOU_);
+	return (ME/YOU);
 }
