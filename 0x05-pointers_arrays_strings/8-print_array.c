@@ -1,10 +1,13 @@
+
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_array - prints n elements of an array of integers, followed by a new line.
+ * print_array - prints n elements of an array
+ * of integers, followed by a new line.
  *
  *           @s: element paramiter
- *           @n: string parameter 
+ *           @n: string parameter
  * Return: 0 always
  */
 
