@@ -3,10 +3,9 @@
 /**
  * print_rev - prints a string, in reverse,
  * followed by a new line.
- *
  * @srp: string to be printed
  *
- * Return: 0 anyways
+ * Return: 0
  */
 
 void print_rev(char *srp)
@@ -15,7 +14,7 @@ void print_rev(char *srp)
 
 	while (srp[dr])
 		dr++;
-	while (srp--)
+	while (dr--)
 		_putchar(srp[dr]);
 	_putchar('\n');
 }
