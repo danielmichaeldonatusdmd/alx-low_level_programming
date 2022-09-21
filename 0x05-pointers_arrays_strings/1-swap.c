@@ -10,6 +10,6 @@ void swap_int(int *m, int *p)
 {
 	int YES = *p;
 	int NO = *m;
-	*a = YES;
-	*b = NO;
+	*m = YES;
+	*p = NO;
 }
