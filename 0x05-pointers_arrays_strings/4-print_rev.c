@@ -15,7 +15,7 @@ void print_rev(char *srp)
 
 	while (srp[dr])
 		dr++;
-	while (i--)
+	while (srp--)
 		_putchar(srp[dr]);
 	_putchar('\n');
 }
