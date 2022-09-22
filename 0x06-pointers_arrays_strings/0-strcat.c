@@ -6,7 +6,6 @@
  *
  *	 @dest: append string
  *	 @src: concatenate string
- *
  * Return: pointer = @dest
  */
 
