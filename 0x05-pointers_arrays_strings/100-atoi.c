@@ -19,7 +19,7 @@ int _atoi(char *s)
 			x *= -1;
 
 		else if (*s >= '0' && *s <= '9')
-			z = (z * 10 ) + (*s - ' 0 ');
+			z = (z * 10 ) + (*s - '0');
 
 		else if (z > 0)
 			break;
