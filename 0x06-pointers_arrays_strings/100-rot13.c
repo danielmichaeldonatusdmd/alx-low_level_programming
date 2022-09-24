@@ -12,7 +12,7 @@ char *rot13(char *s)
 {
 	int m = 0, i;
 	char aZ[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char mix[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+	char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
 	while (*(s + m) != '\0')
 	{
@@ -21,7 +21,7 @@ char *rot13(char *s)
 		{
 			if (*(s + aZ) == aZ[i])
 			{
-				*(s + m) = mix[i];
+				*(s + m) = rot13[i];
 				break;
 			}
 		}
