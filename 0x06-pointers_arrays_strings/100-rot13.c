@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
  * rot13 - function that encodes a string using rot13
  * @s: sprint
- * Return: pointer
+ * Return: s
  */
 
 char *rot13(char *s)
@@ -14,7 +13,6 @@ char *rot13(char *s)
 
 	while (*(s + m) != '\0')
 	{
-
 		for (i = 0; i < 52; i++)
 		{
 			if (*(s + aZ) == aZ[i])
@@ -25,6 +23,5 @@ char *rot13(char *s)
 		}
 		m++;
 	}
-
 	return (s);
 }
