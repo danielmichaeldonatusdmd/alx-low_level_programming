@@ -1,6 +1,5 @@
 #include "main.h"
 
-int _palindrome(char *s, int p);
 
 /**
  * _strlen_recursion - size
