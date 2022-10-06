@@ -2,8 +2,8 @@
 
 /**
  * main - a program that prints its name, followed by a new line.
- * @argc: Number of command line arguments
- * @argv: Array name
+ *	@argc: Number of command line arguments
+ *	@argv: Array name
  * Return: 0 always
  */
 
