@@ -8,9 +8,10 @@
  * Return: 0
  */
 
-int main(int argc, char *argv)
+int main(int argc, char **argv)
 {
-	int x = 0;
+	int x;
+	x = 0;
 
 	while (x++ < argc)
 		printf("%s\n", *argv++);
