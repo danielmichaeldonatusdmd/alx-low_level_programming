@@ -32,11 +32,11 @@ char *argstostr(int ac, char **av)
 		free(str);
 		return (NULL);
 	}
-	for (i = j = a = 0; a < c; j++, ia++)
+	for (i = j = a = 0; a < c; j++, a++)
 	{
 		if (av[i][j] == '\0')
 		{
-			str[ia] = '\n';
+			str[a] = '\n';
 			i++;
 			a++;
 			j = 0;
